@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="../css/dynamic.css">
     <link rel="stylesheet" href="../css/bottom-bar.css">
 
-    <link rel="stylesheet" href="../css/default.css">
-
     <script src="../js/jquery/jquery.js"></script>
     <script src="../js/router.js"></script>
 </head>
@@ -23,9 +21,9 @@
 <div id="container">
     <!-- left-bar  start -->
     <input type="checkbox" style="display: none" id="lb">
-    <input type="checkbox" style="display: none" id="lbr">
+    <input type="checkbox" style="display: none" id="se">
     <div id="left-bar">
-        <div id="left-bar-left">
+
             <div id="left-bar-head">
                 <div class="img" style="height: 80px;width: 100px;background-image: url(../img/jpg/head01.jpg);border-radius: 50%"></div>
                 <div id="left-bar-tittle">
@@ -43,12 +41,20 @@
             <div id="left-bar-foot">
                 <div>夜间模式</div>
                 <div>所有设置</div>
-                <div>退出</div>
+                <label for="lb"><div>退出</div></label>
             </div>
-        </div>
-        <div id="left-bar-right"></div>
     </div>
     <!-- left-bar  end -->
+
+    <div id="search">
+        <div id="search-top">
+            <label for="se"><div></div></label>
+            <div>K歌之王   很好听哦</div>
+        </div>
+        <div id="search-tittle" class="xy-center">歌手分类&gt;</div>
+        &nbsp;&nbsp;热门搜索：<br><br>
+        &nbsp;&nbsp;中国新说唱
+    </div>
 
     <!-- top-bar  start-->
     <div id="top-bar" class="no-select">
@@ -78,120 +84,22 @@
     <div id="menu-1">
         <div id="menu-1-left" class="xy-center">
             <div class="circle"></div>
-            <label for="lb"><div id="menu-1-left-more">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div></label>
+            <div id="menu-1-left-more">
+                <label for="lb"><div></div></label>
+            </div>
         </div>
         <div id="menu-1-center">
             <div class="menu-1" style="background-image: url(../img/svg/音乐.svg);" data-page="dynamic/我的音乐.html"></div>
             <div id="my-menu-1-center" class="menu-1" style="background-image: url(../img/svg/音乐-2.svg);" data-page="dynamic/推荐音乐.html"></div>
             <div class="menu-1" style="background-image: url(../img/svg/播放.svg);" data-page="dynamic/短视频.html"></div>
         </div>
-        <div id="menu-1-right"></div>
+        <label for="se"><div id="menu-1-right"></div></label>
     </div>
     <!-- menu-1  end -->
 
     <!-- dynamic  start-->
     <div id="dynamic">
-        <div id="menu-2" class="no-select" style="color: whitesmoke;width: 100%">
-            <div id="menu-2-left">
-                推荐</div>
-            <div id="menu-2-center">
-                <div class="circle" style="width: 10px;height: 10px"></div>
-                朋友</div>
-            <div id="menu-2-right">
-                <div class="circle" style="width: 10px;height: 10px"></div>
-                电台</div>
-        </div>
-        <div id="dynamic-top">
-            <div id="dynamic-top-background"></div>
-            <div id="dynamic-top-picture" style="background-image: url(../img/jpg/美女.jpg)"></div>
-        </div>
-        <div id="dynamic-menu" class="no-select">
-            <div id="dynamic-menu-img">
-                <div class="xy-center"><div style="background-image: url(../img/svg/收音机-01.svg)"></div></div>
-                <div class="xy-center"><div style="background-image: url(../img/svg/日历.svg)"></div></div>
-                <div class="xy-center"><div style="background-image: url(../img/svg/列表-白.svg)"></div></div>
-                <div class="xy-center"><div style="background-image: url(../img/svg/排行榜.svg)"></div></div>
-            </div>
-            <div id="dynamic-menu-text">
-                <div>私人FM</div>
-                <div>每日推荐</div>
-                <div>歌单</div>
-                <div>排行榜</div>
-            </div>
-        </div>
-        <div class="dynamic-box">
-            <div class="dynamic-box-tittle">推荐歌单<span style="font-weight: lighter;color: gray">&gt;</span></div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-1.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-2.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-3.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>[极致爱恋]直至万物将逝方始痛惜</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-4.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-5.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-6.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>直至万物将逝方始痛惜</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-        </div>
-        <div class="dynamic-box">
-            <div class="dynamic-box-tittle">最新音乐<span style="font-weight: lighter;color: gray">&gt;</span></div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-6.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-5.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-4.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>根据你的口味推荐 <br>推荐合口味的新歌</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-3.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-2.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-1.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>直至万物将逝方始痛惜</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-        </div>
-        <div class="dynamic-box">
-            <div class="dynamic-box-tittle">主播电台<span style="font-weight: lighter;color: gray">&gt;</span></div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-1.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-2.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-3.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>直至万物将逝方始痛惜</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-            <div class="dynamic-box-picture">
-                <div style="background-image: url(../img/jpg/img-4.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-5.jpg)"></div>
-                <div style="background-image: url(../img/jpg/img-6.jpg)"></div>
-            </div>
-            <div class="dynamic-box-info">
-                <div>直至万物将逝方始痛惜</div>
-                <div>论如何优雅的让你知道我想你</div>
-                <div>中国本土民谣排行榜Top 100</div>
-            </div>
-        </div>
+
     </div>
     <!-- dynamic  end-->
 

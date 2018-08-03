@@ -33,16 +33,13 @@
 #menu-1-left-more{
     height: 40px;
     width: 40px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-around;
 }
 #menu-1-left-more div{
-    width: 30px;
-    height: 3px;
-    background-color: whitesmoke;
-    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/svg/列表2.svg);
+    background-size: cover;
+    background-position: center;
 }
 /* menu-1-left   end */
 
