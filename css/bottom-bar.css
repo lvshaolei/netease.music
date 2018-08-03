@@ -1,0 +1,45 @@
+#bottom-bar{
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-bar-img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-image: url(../img/jpg/k歌之王.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#bottom-bar-info{
+    height: 40px;
+    font-size: 14px;
+    color: grey;
+    line-height: 20px;
+    margin: 5px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+#bottom-bar-play{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-image: url(../img/svg/播放02.svg);
+    background-size: cover;
+    background-position: center;
+}
+#bottom-bar-list{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-image: url(../img/svg/列表.svg);
+    background-size: cover;
+    background-position: center;
+}

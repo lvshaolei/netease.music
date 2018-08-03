@@ -1,0 +1,39 @@
+#menu-2{
+    height: 50px;
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+
+#menu-2 div{
+    height: 20px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+#menu-2-left{
+    border-bottom: whitesmoke 2px solid;
+}
+#menu-2-center{
+    position: relative;
+    opacity: .5;
+}
+#menu-2-center:hover{
+    opacity: 1;
+}
+#menu-2-right{
+    position: relative;
+    opacity: .5;
+}
+#menu-2-right:hover{
+    opacity: 1;
+}
+.menu-2-more{
+
+}

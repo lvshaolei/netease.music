@@ -1,0 +1,138 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑, sans-serif;
+}
+
+.no-select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.border {
+    border: blue 1px solid;
+}
+
+.xy-center{
+    justify-content: center;
+    align-items: center;
+}
+#left-bar{
+    width: 101%;
+    height: 100%;
+    position: absolute;
+    left: -101%;
+    display: flex;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+#left-bar-left{
+    width: 81%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#left-bar-right{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+#lb:checked ~ #left-bar{ transform: translateX(100%)}
+#lbr:checked ~ #left-bar{ transform: translateX(-100%)}
+
+
+#left-bar-head{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../img/jpg/img-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#left-bar-tittle{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left-bar-tittle div:nth-child(1){
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+#left-bar-tittle div:nth-child(2){
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+#left-bar-tittle div:nth-child(3){
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+#left-bar-body{
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+#left-bar-body div{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#left-bar-body div div:nth-child(1){
+     height: 30px;
+     width: 30px;
+
+     background-position: center;
+     background-size: cover;
+ }
+#left-bar-body div div:nth-child(2){
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#left-bar-foot{
+    height: 40px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#left-bar-foot div{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+

@@ -1,0 +1,428 @@
+#dynamic{
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: scroll;
+    flex: 1;
+}
+
+/* dynamic-top   start */
+#dynamic-top{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+}
+#dynamic-top-background {
+    height: 100px;
+    width: 100%;
+    background-color: #dc143c;
+    position: absolute;
+    top: 0;
+}
+#dynamic-top-picture{
+    height: 160px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+}
+
+/* 我的音乐页面  dynamic-top-picture start */
+#dynamic-top-picture-left{
+    height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dynamic-top-picture-left div:nth-child(1){
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+#dynamic-top-picture-left div:nth-child(2){
+    height: 40px;
+    width: 80px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+#my-menu-1-center{
+    opacity: .5;
+    transform: scale(.6);
+}
+#my-menu-1-center:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+#dynamic-top-picture-right{
+    height: 60px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#dynamic-top-picture-right div{
+    height: 20px;
+    width: 80px;
+    color: crimson;
+    border-radius: 10px;
+    border:solid crimson 2px;
+    display: flex;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+/* dynamic-top   end */
+
+/* dynamic-menu   start */
+#dynamic-menu{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#dynamic-menu-img{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#dynamic-menu-img div{
+    height: 60px;
+    width: 60px;
+    background-color: #dc143c;
+    display: flex;
+    border-radius: 50%;
+}
+#dynamic-menu-img div div{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#dynamic-menu-text{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+#dynamic-menu-text div{
+    height: 20px;
+    width: 60px;
+}
+
+/* dynamic-menu   end */
+
+/* dynamic-box   start */
+.dynamic-box{
+    width: 100%;
+}
+.dynamic-box-tittle{
+    height: 50px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+
+}
+.dynamic-box-picture{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dynamic-box-picture div{
+    height: 80px;
+    margin: 10px;
+    flex: 1;
+    background-size: cover;
+    border-radius: 4px;
+    background-position: center;
+    background-color: blueviolet;
+}
+.dynamic-box-info{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    color: gray;
+}
+.dynamic-box-info div{
+    height: 40px;
+    margin: 10px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+}
+
+/* dynamic-box   end */
+
+/* 我的音乐页面  dynamic-box start */
+.dynamic-box-img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+.dynamic-box-text{
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: lightgray solid 1px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+/* 我的音乐页面  dynamic-box end */
+
+.dynamic-bar{
+    height: 30px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dynamic-bar-left{
+    height: 20px;
+    width: 20px;
+    margin-left: 5%;
+    margin-right: 7%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/箭头-下.svg);
+}
+.dynamic-bar-center{
+    height: 20px;
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+.dynamic-bar-right{
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 7%;
+    margin-right: 5%;
+    background-image: url(../img/svg/设置.svg);
+}
+
+.dynamic-list{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dynamic-list-left{
+    width: 50px;
+    height: 50px;
+    margin-left: 7%;
+    margin-right: 5%;
+    background-position: center;
+    background-size: cover;
+}
+.dynamic-list-center{
+    height: 50px;
+    line-height: 25px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+}
+.dynamic-list-center div:nth-child(1){
+    font-size: 18px;
+    color: black;
+}
+.dynamic-list-center div:nth-child(2){
+    font-size: 14px;
+    color: gray;
+}
+
+.dynamic-list-right{
+    height: 50px;
+    width: 50px;
+    margin-right: 3%;
+    margin-left: 5%;
+    display: flex;
+}
+.dynamic-list-right div{
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/选项.svg);
+}
+
+/* 短视频   dynamic   start */
+.video-box{
+    height: 300px;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.video{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.info{
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.comments{
+    height: 50px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.comments-head{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/悉尼歌剧院.svg);
+}
+.comments-name{
+    height: 30px;
+    flex: 1;
+    font-size: 18px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.comments-good{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/点赞.svg);
+}
+.comments-text{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/留言.svg);
+}
+.comments-more{
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/选项.svg);
+}
+/* 短视频   dynamic   end */
+
+
+/*播放界面*/
+#play{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+#play div{
+    width: 240px;
+    height: 240px;
+    background-image: url(../img/jpg/陈奕迅.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    animation: play-cd 8s linear infinite;
+    border: rgba(0,0,0,.2) solid 20px;
+    box-shadow: 0 0 30px black;
+}
+
+@keyframes play-cd {
+    100%{
+        transform: rotate(360deg);
+    }
+}
