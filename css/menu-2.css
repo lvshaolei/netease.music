@@ -18,6 +18,10 @@
     align-items: center;
     justify-content: center;
 }
+#menu-2 div:hover{
+    border-bottom: whitesmoke 2px solid;
+    opacity: 1;
+}
 #menu-2-left{
     border-bottom: whitesmoke 2px solid;
 }
@@ -25,18 +29,16 @@
     position: relative;
     opacity: .5;
 }
-#menu-2-center:hover{
-    opacity: 1;
-    border-bottom: whitesmoke 2px solid;
-}
+/*#menu-2-center:hover{*/
+    /*opacity: 1;*/
+    /*border-bottom: whitesmoke 2px solid;*/
+/*}*/
 #menu-2-right{
     position: relative;
     opacity: .5;
 }
-#menu-2-right:hover{
-    opacity: 1;
-    border-bottom: whitesmoke 2px solid;
-}
-.menu-2-more{
+/*#menu-2-right:hover{*/
+    /*opacity: 1;*/
+    /*border-bottom: whitesmoke 2px solid;*/
+/*}*/
 
-}
