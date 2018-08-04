@@ -1,5 +1,5 @@
 #menu-2{
-    height: 50px;
+    height: 40px;
     background-color: crimson;
     color: whitesmoke;
     font-size: 16px;
@@ -11,7 +11,8 @@
 
 
 #menu-2 div{
-    height: 20px;
+    height: 30px;
+    width: 33%;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -26,6 +27,7 @@
 }
 #menu-2-center:hover{
     opacity: 1;
+    border-bottom: whitesmoke 2px solid;
 }
 #menu-2-right{
     position: relative;
@@ -33,6 +35,7 @@
 }
 #menu-2-right:hover{
     opacity: 1;
+    border-bottom: whitesmoke 2px solid;
 }
 .menu-2-more{
 
