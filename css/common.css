@@ -28,7 +28,7 @@
     left: -80%;
     display: flex;
     z-index: 2;
-    transition: all 1s ease-in-out;
+    transition: all 0.6s ease-in-out;
     background-color: whitesmoke;
     flex-flow: column;
     align-items: flex-start;
@@ -177,7 +177,7 @@
     font-weight: 200;
     display: flex;
     z-index: 2;
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
     background-color: whitesmoke;
     flex-flow: column;
     align-items: flex-start;
