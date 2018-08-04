@@ -5,6 +5,13 @@
     overflow: scroll;
     flex: 1;
 }
+#play-dynamic{
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: scroll;
+    flex: 1;
+}
 
 /* dynamic-top   start */
 #dynamic-top{

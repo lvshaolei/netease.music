@@ -21,6 +21,7 @@
     opacity: .5;
     transform: scale(.6);
 }
+
 .circle{
     width: 10px;
     height: 10px;
@@ -81,6 +82,53 @@
 /* menu-1-right   end */
 
 /* 播放界面 */
+#play-my-menu-1-center{
+    opacity: .5;
+    transform: scale(.6);
+}
+#play-my-menu-1-center:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+#play-menu-1-left {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    position: relative;
+    opacity: .5;
+    transform: scale(.6);
+}
+#play-menu-1-center{
+    height: 40px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+#play-menu-1-center div{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+
+}
+#play-menu-1-center div:nth-child(2n-1){
+    opacity: .5;
+    transform: scale(.6);
+}
+#play-menu-1-center div:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+#play-menu-1-right{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/svg/搜索.svg);
+    opacity: .5;
+    transform: scale(.6);
+}
 #menu-1-play{
     height: 50px;
     width: 100%;

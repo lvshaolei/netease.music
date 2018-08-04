@@ -43,11 +43,36 @@
     height: 120px;
     width: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
+    flex-flow: column;
+    justify-content: flex-end;
     background-image: url(../img/jpg/img-5.jpg);
     background-position: center;
     background-size: cover;
+}
+#left-bar-img{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left-bar-img-img{
+    margin-left: 5%;
+    height: 60px;
+    width: 60px;
+    background-image: url(../img/jpg/head01.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+}
+#left-bar-img-back{
+    margin-right: 5%;
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/svg/返回.svg);
 }
 
 #left-bar-tittle{
@@ -58,74 +83,90 @@
     justify-content: space-between;
 }
 #left-bar-tittle div:nth-child(1){
+    margin-left: 5%;
     height: 30px;
     font-size: 18px;
     line-height: 30px;
     color: whitesmoke;
 }
 #left-bar-tittle div:nth-child(2){
+    margin-left: 5%;
+    height: 20px;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+#left-bar-tittle div:nth-child(2) div{
     height: 20px;
     width: 30px;
-    text-align: center;
     font-size: 12px;
     line-height: 20px;
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 #left-bar-tittle div:nth-child(3){
+    width: 50px;
+    margin-right: 5%;
+    text-align: center;
     height: 30px;
     font-size: 18px;
     line-height: 30px;
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px solid whitesmoke;
 }
 
 #left-bar-body{
     width: 100%;
     flex: 1;
-
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: flex-start;
     overflow: scroll;
 }
 #left-bar-body div{
+    margin-left: 5%;
+    margin-top: 10px;
     height: 40px;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 #left-bar-body div div:nth-child(1){
+
      height: 30px;
      width: 30px;
-
      background-position: center;
      background-size: cover;
  }
 #left-bar-body div div:nth-child(2){
     height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
+}
+.line{
+    background-color: lightgray;
+    width: 100%;
 }
 
 #left-bar-foot{
     height: 40px;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 #left-bar-foot div{
-    font-size: 16px;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
 
 #search{
     width: 100%;
@@ -171,4 +212,35 @@
     display: flex;
     color: gray;
 }
+#search-advice{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#search-advice div{
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#play-ui{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    z-index: 2;
+    transition: all 1s ease-in-out;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url(../img/jpg/黑-雾.jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: .5;
+}
+
+#pl:checked ~ #play-ui{ transform: translateY(-100%);opacity: 1;}
 

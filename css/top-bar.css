@@ -27,11 +27,22 @@
     align-items: center;
     justify-content: space-between;
 }
+#play-top-bar{
+    height: 30px;
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* top-bar-left  start */
 #top-bar-left{
     height: 20px;
     width: 40px;
+    z-index: 5;
 }
 
 #top-bar-left div {
@@ -46,6 +57,7 @@
     flex-flow: row;
     align-items: center;
     justify-content: flex-end;
+    z-index: 5;
 }
 
 #signal{
