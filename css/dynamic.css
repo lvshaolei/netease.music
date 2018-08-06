@@ -18,17 +18,12 @@
     height: 200px;
     width: 100%;
     position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
     z-index: 1;
 }
 #dynamic-top-background {
-    height: 100px;
+    height: 50%;
     width: 100%;
     background-color: #dc143c;
-    position: absolute;
     top: 0;
 }
 #dynamic-top-picture{
@@ -47,57 +42,51 @@
 
 /*轮播图*/
 #dynamic-top-picture1{
-    height: 160px;
+    height: 90%;
     width: 90%;
     position: absolute;
+    top: 5%;
     left: 5%;
-    background-size: cover;
-    background-position: center;
     border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
     box-shadow: 0 0 10px gray;
 
     animation: p1 16s ease-in-out infinite;
 }
 #dynamic-top-picture2{
-    height: 160px;
+    height: 90%;
     width: 90%;
     position: absolute;
+    top: 5%;
     left: 5%;
     background-size: cover;
     background-position: center;
     border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 10px gray;
 
     animation: p2 16s ease-in-out infinite;
 }
 #dynamic-top-picture3{
-    height: 160px;
+    height: 90%;
     width: 90%;
     position: absolute;
+    top: 5%;
     left: 5%;
     background-size: cover;
     background-position: center;
     border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 10px gray;
 
     animation: p3 16s ease-in-out infinite;
 }
 #dynamic-top-picture4{
-    height: 160px;
+    height: 90%;
     width: 90%;
     position: absolute;
+    top: 5%;
     left: 5%;
     background-size: cover;
     background-position: center;
     border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
     box-shadow: 0 0 10px gray;
 
     animation: p4 16s ease-in-out infinite;
