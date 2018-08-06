@@ -44,6 +44,132 @@
     box-shadow: 0 0 10px gray;
 }
 
+/*轮播图*/
+#dynamic-top-picture1{
+    height: 160px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+
+    animation: p1 16s ease-in-out infinite;
+}
+#dynamic-top-picture2{
+    height: 160px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px gray;
+
+    animation: p2 16s ease-in-out infinite;
+}
+#dynamic-top-picture3{
+    height: 160px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px gray;
+
+    animation: p3 16s ease-in-out infinite;
+}
+#dynamic-top-picture4{
+    height: 160px;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gray;
+
+    animation: p4 16s ease-in-out infinite;
+}
+@keyframes p1 {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p2 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes p3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes p4 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 /* 我的音乐页面  dynamic-top-picture start */
 #dynamic-top-picture-left{
     height: 60px;
