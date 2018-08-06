@@ -50,7 +50,7 @@
     border-radius: 4px;
     box-shadow: 0 0 10px gray;
 
-    animation: p1 16s ease-in-out infinite;
+    animation: p1 16s infinite;
 }
 #dynamic-top-picture2{
     height: 90%;
@@ -63,7 +63,7 @@
     border-radius: 4px;
     box-shadow: 0 0 10px gray;
 
-    animation: p2 16s ease-in-out infinite;
+    animation: p2 16s infinite;
 }
 #dynamic-top-picture3{
     height: 90%;
@@ -76,7 +76,7 @@
     border-radius: 4px;
     box-shadow: 0 0 10px gray;
 
-    animation: p3 16s ease-in-out infinite;
+    animation: p3 16s infinite;
 }
 #dynamic-top-picture4{
     height: 90%;
@@ -89,10 +89,13 @@
     border-radius: 4px;
     box-shadow: 0 0 10px gray;
 
-    animation: p4 16s ease-in-out infinite;
+    animation: p4 16s infinite;
 }
 @keyframes p1 {
     0%{
+        opacity: 1;
+    }
+    5%{
         opacity: 1;
     }
     25%{
@@ -115,6 +118,9 @@
     25%{
         opacity: 1;
     }
+    35%{
+        opacity: 1;
+    }
     50%{
         opacity: 0;
     }
@@ -135,6 +141,9 @@
     50%{
         opacity: 1;
     }
+    55%{
+        opacity: 1;
+    }
     75%{
         opacity: 0;
     }
@@ -153,6 +162,9 @@
         opacity: 0;
     }
     75%{
+        opacity: 1;
+    }
+    80%{
         opacity: 1;
     }
     100%{
